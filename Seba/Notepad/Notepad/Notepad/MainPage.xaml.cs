@@ -14,5 +14,15 @@ namespace Notepad
         {
             InitializeComponent();
         }
+
+        private void btn_save_txt_to_file_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_read_txt_from_file_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

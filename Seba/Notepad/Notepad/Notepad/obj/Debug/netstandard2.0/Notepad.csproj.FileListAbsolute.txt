@@ -1,0 +1,15 @@
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\bin\Debug\netstandard2.0\Notepad.deps.json
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\bin\Debug\netstandard2.0\Notepad.dll
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\bin\Debug\netstandard2.0\Notepad.pdb
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.csproj.AssemblyReference.cache
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.AssemblyInfoInputs.cache
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.AssemblyInfo.cs
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.dll
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\refint\Notepad.dll
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\Notepad.pdb
+C:\Users\4pTP gr2\Desktop\Mobilne\Seba\Notepad\Notepad\Notepad\obj\Debug\netstandard2.0\ref\Notepad.dll
