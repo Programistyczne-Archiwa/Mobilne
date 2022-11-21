@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad.Android", "Notepad\Notepad.Android\Notepad.Android.csproj", "{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "Notepad\Notepad\Notepad.csproj", "{78C5084A-F405-4035-AF3E-0C622C2FA179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03848657-02F9-46CD-B5F5-6C15DE7BC7BA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C5084A-F405-4035-AF3E-0C622C2FA179}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA8CAC1B-FF47-403A-8EB4-73F4B8413F9C}
+	EndGlobalSection
+EndGlobal
