@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -18,25 +19,36 @@ namespace Notepad
             InitializeComponent();
         }
 
+        async void alert_save_file(object sender, EventArgs e)
+        {
+            await DisplayAlert("Zapis pliku", "Pomyślnie zapisano plik!", "Ok");
+        }
+
+        async void alert_read_file(object sender, EventArgs e)
+        {
+            await DisplayAlert("Odczyt pliku", "Pomyślnie odczytano plik!", "Ok");
+        }
+
         private void btn_save_txt_to_file_Clicked(object sender, EventArgs e)
         {
             string filename = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "temp.txt");
-            Trace.WriteLine(filename);
-            if (File.Exists(filename))
+            using (var writer = File.CreateText(filename))
             {
-                File.WriteAllText(filename, editor_notepad.Text);
-                Trace.WriteLine(File.ReadAllText(filename));
+                writer.Write(editor_notepad.Text);
+                alert_save_file(sender, e);
             }
         }
 
         private void btn_read_txt_from_file_Clicked(object sender, EventArgs e)
         {
             string filename = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "temp.txt");
-            Trace.WriteLine(filename);
-            if (File.Exists(filename))
+            if(File.Exists(filename))
             {
-                Trace.WriteLine(File.ReadAllText(filename));
-                editor_notepad.Text = File.ReadAllText(filename);
+                using (var reader = File.OpenText(filename))
+                {
+                    editor_notepad.Text = reader.ReadToEnd();
+                    alert_read_file(sender, e);
+                }
             }
         }
     }
