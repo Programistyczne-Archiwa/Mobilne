@@ -1,0 +1,15 @@
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\bin\Debug\netstandard2.0\fileAccess.deps.json
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\bin\Debug\netstandard2.0\fileAccess.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\bin\Debug\netstandard2.0\fileAccess.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.csproj.AssemblyReference.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.AssemblyInfoInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.AssemblyInfo.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.csproj.CoreCompileInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\refint\fileAccess.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\fileAccess.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\fileAccess\fileAccess\fileAccess\obj\Debug\netstandard2.0\ref\fileAccess.dll
