@@ -15,6 +15,7 @@ namespace fileAccess
 {
     public partial class MainPage : ContentPage
     {
+
         public MainPage()
         {
             InitializeComponent();
@@ -46,6 +47,7 @@ namespace fileAccess
 
         async void aaaaa_Clicked(object sender, EventArgs e)
         {
+            
             var pickResult = await FilePicker.PickAsync(new PickOptions
             {
                 FileTypes = FilePickerFileType.Images,
@@ -55,8 +57,36 @@ namespace fileAccess
             if(pickResult != null)
             {
                 var stream = await pickResult.OpenReadAsync();
-                resultImage.Source = ImageSource.FromStream(() => stream);
+                
+                if(resultImage.Source == null)
+                {
+                    resultImage.Source = ImageSource.FromStream(() => stream);
+                }else if(resultImage1.Source == null)
+                {
 
+                    resultImage1.Source = ImageSource.FromStream(() => stream);
+                }
+                else if (resultImage2.Source == null)
+                {
+
+                    resultImage2.Source = ImageSource.FromStream(() => stream);
+                }
+                else if (resultImage3.Source == null)
+                {
+
+                    resultImage3.Source = ImageSource.FromStream(() => stream);
+                }
+                else if (resultImage4.Source == null)
+                {
+
+                    resultImage4.Source = ImageSource.FromStream(() => stream);
+                }
+                else if (resultImage5.Source == null)
+                {
+
+                    resultImage5.Source = ImageSource.FromStream(() => stream);
+                }
+            
             }
         }
     }
