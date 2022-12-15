@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_06_10_mobilne.MainPage">
+
+    <StackLayout>
+        
+            <Label  FontSize="50" Grid.ColumnSpan="3">Domek w górach</Label>
+            <Image x:Name="l1"  Grid.ColumnSpan="3" Source="icon.png" Aspect="AspectFill"></Image>
+            <Grid BackgroundColor="Teal" HeightRequest="100">
+
+            <Button BackgroundColor="Teal" BorderColor="Black" BorderWidth="1" Clicked="Button_Clicked" TextColor="White" Grid.Column="0" Text="POLUB"></Button>
+            <Button BackgroundColor="Teal" BorderColor="Black" BorderWidth="1" Clicked="Button_Clicked_1" TextColor="White" Grid.Column="1" Text="USUŃ"></Button>
+            <Button BackgroundColor="Teal" BorderColor="Black" BorderWidth="1" Clicked="Button_Clicked_2" TextColor="White" Grid.Column="2" Text="ZAPISZ"></Button>
+
+            </Grid>
+            <Label x:Name="labelus" HorizontalTextAlignment="End" Margin="0,0,30,0" FontSize="20"> 0 polubień</Label>
+            <BoxView  HeightRequest="1" Color="LightGray"/>
+            <Label  FontSize="25" FontAttributes="Bold">Opis</Label>
+            <Label  FontSize="20" TextColor="Gray"> Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</Label>
+        
+    </StackLayout>
+
+</ContentPage>

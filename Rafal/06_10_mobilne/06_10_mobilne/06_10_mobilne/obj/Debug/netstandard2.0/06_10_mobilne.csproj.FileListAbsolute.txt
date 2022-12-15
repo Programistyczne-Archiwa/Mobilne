@@ -1,0 +1,15 @@
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\bin\Debug\netstandard2.0\06_10_mobilne.deps.json
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\bin\Debug\netstandard2.0\06_10_mobilne.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\bin\Debug\netstandard2.0\06_10_mobilne.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.csproj.AssemblyReference.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.AssemblyInfoInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.AssemblyInfo.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.csproj.CoreCompileInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\refint\06_10_mobilne.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\06_10_mobilne.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\06_10_mobilne\06_10_mobilne\06_10_mobilne\obj\Debug\netstandard2.0\ref\06_10_mobilne.dll
