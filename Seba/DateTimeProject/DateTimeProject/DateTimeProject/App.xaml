@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DateTimeProject.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BoxViewCircle" TargetType="BoxView">
+                <!-- HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="50" HeightRequest="90" WidthRequest="90" -->
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="CornerRadius" Value="50"></Setter>
+                <Setter Property="HeightRequest" Value="90"></Setter>
+                <Setter Property="WidthRequest" Value="90"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,15 @@
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\bin\Debug\netstandard2.0\DateTimeProject.deps.json
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\bin\Debug\netstandard2.0\DateTimeProject.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\bin\Debug\netstandard2.0\DateTimeProject.pdb
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.csproj.AssemblyReference.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.AssemblyInfoInputs.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.AssemblyInfo.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.csproj.CoreCompileInputs.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\refint\DateTimeProject.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\DateTimeProject.pdb
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\DateTimeProject\DateTimeProject\DateTimeProject\obj\Debug\netstandard2.0\ref\DateTimeProject.dll

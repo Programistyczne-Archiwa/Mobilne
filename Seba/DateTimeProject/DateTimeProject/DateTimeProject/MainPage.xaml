@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DateTimeProject.MainPage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+
+    <StackLayout Spacing="10">
+        <Frame HasShadow="True" CornerRadius="20" Margin="10" Padding="15">
+            <StackLayout>
+                <Label Text="ZEGAREK BINARNY" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Grid x:Name="grid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="100"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="1" Text="8" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="1" Grid.Column="1" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="0" Grid.Column="2" Text="4" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="1" Grid.Column="2" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="0" Grid.Column="3" Text="2" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="1" Grid.Column="3" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="0" Grid.Column="4" Text="1" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="1" Grid.Column="4" Style="{StaticResource BoxViewCircle}"></BoxView>
+
+                    <Label Grid.Row="3" Grid.Column="0" Text="32" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="0" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="3" Grid.Column="1" Text="16" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="1" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="3" Grid.Column="2" Text="8" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="2" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="3" Grid.Column="3" Text="4" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="3" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="3" Grid.Column="4" Text="2" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="4" Style="{StaticResource BoxViewCircle}"></BoxView>
+                    <Label Grid.Row="3" Grid.Column="5" Text="1" HorizontalOptions="Center"></Label>
+                    <BoxView Grid.Row="4" Grid.Column="5" Style="{StaticResource BoxViewCircle}"></BoxView>
+
+                </Grid>
+                <Label Text="Created by Sebastian" HorizontalOptions="End"></Label>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
