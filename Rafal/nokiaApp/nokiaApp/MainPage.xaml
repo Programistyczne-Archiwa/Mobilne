@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nokiaApp.MainPage">
+
+
+        <Grid>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <Frame Margin="120,150" CornerRadius="30" BackgroundColor="LightGray">
+
+               
+            <StackLayout Grid.Row="0">
+                <StackLayout x:Name="dateTime" IsVisible="true">
+                    <Label Grid.Row="0" Padding="0,50" Grid.Column="0" HorizontalOptions="Center" x:Name="Godzina" FontSize="50"></Label>
+                    <Label Grid.Row="0" Grid.Column="0" FontSize="30" HorizontalOptions="Center" x:Name="Data" Padding="0,0,0,30"></Label>
+                    
+                </StackLayout>
+                
+                <StackLayout x:Name="world" IsVisible="false">
+                    <Label Grid.Row="2" Padding="0,50" Grid.Column="0" HorizontalOptions="Center" x:Name="Hello" FontSize="50">Hello World</Label>
+
+                </StackLayout>
+
+                <StackLayout x:Name="icons" IsVisible="false">
+                    <!-- Grafikę umieść w folderze /Resources/drawable -->
+                    <Image Source="nokia.png" Aspect="Fill"></Image>
+                </StackLayout>
+                <BoxView HorizontalOptions="FillAndExpand"  HeightRequest="1"  Color="Black"/>
+                <FlexLayout HorizontalOptions="Center">
+                    <Button  Text="Start" Clicked="Start"> </Button>
+                    <Button  Text="Menu" Clicked="Menu"></Button>
+                    <Button  Text="Stop" Clicked="Stop"></Button>
+                </FlexLayout>
+
+
+            </StackLayout>
+
+           
+        </Frame>
+
+        
+
+    </Grid>
+        
+
+</ContentPage>

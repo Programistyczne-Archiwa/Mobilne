@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "2QoO8Jv4IBj8yfvFRpQHv5MKcFqc58FsScd6Vq/2gU4MFIzFtN91QLh7sbsj5N247ED7kxygZJL565Z09IQrxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4p - gr2\\Desktop\\ApWpf\\nokiaApp\\nokiaApp\\nokiaApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4p - gr2\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\4p - gr2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\4p - gr2\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\4p - gr2\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\4p - gr2\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
