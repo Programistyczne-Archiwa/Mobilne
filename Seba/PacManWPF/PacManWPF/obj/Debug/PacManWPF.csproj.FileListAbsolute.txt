@@ -1,0 +1,16 @@
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\bin\Debug\PacManWPF.exe.config
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\bin\Debug\PacManWPF.exe
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\bin\Debug\PacManWPF.pdb
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.csproj.AssemblyReference.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\MainWindow.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\App.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF_MarkupCompile.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF_MarkupCompile.lref
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\MainWindow.baml
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.g.resources
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.Properties.Resources.resources
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.csproj.GenerateResource.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.csproj.CoreCompileInputs.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.exe
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\PacManWPF\PacManWPF\obj\Debug\PacManWPF.pdb

@@ -1,0 +1,17 @@
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\bin\Debug\netstandard2.0\NokiaApp.deps.json
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\bin\Debug\netstandard2.0\NokiaApp.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\bin\Debug\netstandard2.0\NokiaApp.pdb
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.csproj.AssemblyReference.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.AssemblyInfoInputs.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.AssemblyInfo.cs
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.csproj.CoreCompileInputs.cache
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\refint\NokiaApp.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\NokiaApp.pdb
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\obj\Debug\netstandard2.0\ref\NokiaApp.dll
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\bin\Debug\netstandard2.0\Dosis.ttf
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp\bin\Debug\netstandard2.0\Orbitron.ttf
