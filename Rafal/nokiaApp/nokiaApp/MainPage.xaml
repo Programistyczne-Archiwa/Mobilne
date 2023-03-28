@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nokiaApp.MainPage">
+
+
+        <Frame Margin="120,150" CornerRadius="30" BackgroundColor="Black">
+            <Frame BorderColor="DimGray" BackgroundColor="Black">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="0"></RowDefinition>
+                <RowDefinition Height="3"></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+                
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" x:Name="dateTime" IsVisible="true">
+                <Label  Padding="0,50" Grid.Column="0" HorizontalOptions="Center" TextColor="White" x:Name="Godzina" FontSize="50"></Label>
+                <Label Grid.Column="0" FontSize="30" HorizontalOptions="Center" TextColor="White" x:Name="Data" Padding="0,0,0,0"></Label>
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="0" x:Name="world" IsVisible="false">
+                <Label  Padding="0,0" Grid.Column="0" HorizontalOptions="Center" x:Name="Hello" TextColor="White" FontSize="50">Hello World</Label>
+                <Label  Padding="0,20,0,0" MaxLines="1" Grid.Column="0" HorizontalOptions="Center" x:Name="numer" TextColor="White" FontSize="55"></Label>
+
+                </StackLayout>
+
+            <StackLayout Grid.Row="0" x:Name="icons" IsVisible="false">
+                <!-- Grafikę umieść w folderze /Resources/drawable -->
+                <Image Source="nokia.png" Aspect="Fill" HeightRequest="290"></Image>
+            </StackLayout>
+
+            <BoxView HorizontalOptions="FillAndExpand" Grid.Row="2" HeightRequest="3"  Color="White"/>
+            <Grid Grid.Row="3" x:Name="grid2">            
+                <Button  Text="Start" Grid.Column="0" Clicked="Start" VerticalOptions="Start"></Button>
+                <Button  Text="Menu"  Grid.Column="1" Clicked="Menu" VerticalOptions="Start"></Button>
+                <Button  Text="Stop" Grid.Column="2" Clicked="Stop" VerticalOptions="Start"></Button>
+
+                    <Button Grid.Column="0" Clicked="Button_Clicked" x:Name="button1" Grid.Row="1" Text="1" IsEnabled="False"></Button>
+                    <Button Grid.Column="1" Clicked="Button_Clicked" x:Name="button2" Grid.Row="1" Text="2" IsEnabled="False"></Button>
+                    <Button Grid.Column="2" Clicked="Button_Clicked" x:Name="button3" Grid.Row="1" Text="3" IsEnabled="False"></Button>
+
+                    <Button Grid.Column="0" Clicked="Button_Clicked" x:Name="button4" ClassId="buttons" Grid.Row="2" Text="4" IsEnabled="False"></Button>
+                    <Button Grid.Column="1" Clicked="Button_Clicked" x:Name="button5" ClassId="buttons" Grid.Row="2" Text="5" IsEnabled="False"></Button>
+                    <Button Grid.Column="2" Clicked="Button_Clicked" x:Name="button6" ClassId="buttons" Grid.Row="2" Text="6" IsEnabled="False"></Button>
+
+                    <Button Grid.Column="0" Clicked="Button_Clicked" x:Name="button7" ClassId="buttons" Grid.Row="3" Text="7" IsEnabled="False"></Button>
+                    <Button Grid.Column="1" Clicked="Button_Clicked" x:Name="button8" ClassId="buttons" Grid.Row="3" Text="8" IsEnabled="False"></Button>
+                    <Button Grid.Column="2" Clicked="Button_Clicked" x:Name="button9" ClassId="buttons"  Grid.Row="3" Text="9" IsEnabled="False"></Button>
+
+                    <Button Grid.Column="1" Clicked="Button_Clicked" x:Name="button0" ClassId="buttons"  Grid.Row="4" Text="0" IsEnabled="False"></Button>
+
+                    <Button Grid.Column="0" Clicked="Button_Clicked" x:Name="clear" ClassId="buttons"  Grid.Row="4" Text="Wyczyść" IsEnabled="False"></Button>
+
+                    <Button Grid.Column="2" Clicked="Button_Clicked" x:Name="call" ClassId="buttons"  Grid.Row="4" Text="Zadzwoń" IsEnabled="False"></Button>
+                </Grid>
+
+
+            </Grid>
+        </Frame>
+
+    </Frame>
+
+        
+
+        
+
+</ContentPage>

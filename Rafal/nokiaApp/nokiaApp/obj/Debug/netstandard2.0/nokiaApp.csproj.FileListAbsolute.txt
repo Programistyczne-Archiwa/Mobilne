@@ -1,0 +1,15 @@
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\bin\Debug\netstandard2.0\nokiaApp.deps.json
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\bin\Debug\netstandard2.0\nokiaApp.dll
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\bin\Debug\netstandard2.0\nokiaApp.pdb
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.csproj.AssemblyReference.cache
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.AssemblyInfoInputs.cache
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.AssemblyInfo.cs
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.csproj.CoreCompileInputs.cache
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.dll
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\refint\nokiaApp.dll
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\nokiaApp.pdb
+C:\Users\4p - gr2\Desktop\ApWpf\nokiaApp\nokiaApp\obj\Debug\netstandard2.0\ref\nokiaApp.dll
