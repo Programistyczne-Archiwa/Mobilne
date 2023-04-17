@@ -84,7 +84,8 @@ namespace NokiaApp
                     button.Style = (Style)this.Resources["ChildStyleOn"];
                 }
             }
-            Window.IsVisible = true;
+            Menu.IsVisible = true;
+            ImageMenu.IsVisible = false;
         }
         private void Stop_Clicked(object sender, EventArgs e)
         {
@@ -103,17 +104,36 @@ namespace NokiaApp
                     button.Style = (Style)this.Resources["ChildStyleOff"];
                 }
             }
-            Window.IsVisible = false;
+            Menu.IsVisible = false;
+            ImageMenu.IsVisible = false;
         }
 
         private void Call_Clicked(object sender, EventArgs e)
         {
+            if (isOn == false) return;
             PhoneDialer.Open(Text.Text);
+        }
+
+        private void ImageMenu_Clicked(object sender, EventArgs e)
+        {
+            if (isOn == false) return;
+            if (ImageMenu.IsVisible == false)
+            {
+                Menu.IsVisible = false;
+                ImageMenu.IsVisible = true;
+            }
+            else
+            {
+                Menu.IsVisible = true;
+                ImageMenu.IsVisible = false;
+            }
         }
 
         private void Old_Clicked(object sender, EventArgs e)
         {
             theme = "old";
+            FramePhone.Style = (Style)this.Resources["FramePhoneStyle"];
+            FrameScreen.Style = (Style)this.Resources["FrameScreenStyle"];
             if (isOn == true)
             {
                 foreach (Button button in GridButtons.Children.OfType<Button>())

@@ -633,3 +633,4 @@ C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp.Andro
 C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp.Android\bin\Debug\Dosis.ttf
 C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp.Android\bin\Debug\Orbitron.ttf
+C:\Users\4p - gr2\Documents\GitHub\Mobilne\Seba\NokiaApp\NokiaApp\NokiaApp.Android\obj\Debug\130\res\drawable\imagemenu.png
