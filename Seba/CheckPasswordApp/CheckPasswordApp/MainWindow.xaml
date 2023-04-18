@@ -3,16 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CheckPasswordApp" xmlns:views="clr-namespace:CheckPasswordApp.Views"
+        xmlns:views="clr-namespace:CheckPasswordApp.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="Button">
-            <Setter Property="FontSize" Value="24"/>
-            <Setter Property="Padding" Value="10 5"/>
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Padding" Value="10 5" />
         </Style>
     </Window.Resources>
-    <Grid>
-        <views:PassCheckView MaxWidth="300" DataContext="{Binding CurrentViewModel}"/>
+    <Grid Background="#252525">
+        <views:PassCheckView MaxWidth="300" DataContext="{Binding CurrentViewModel}" />
     </Grid>
 </Window>
