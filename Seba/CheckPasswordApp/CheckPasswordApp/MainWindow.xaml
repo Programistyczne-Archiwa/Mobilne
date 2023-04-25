@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:CheckPasswordApp.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        ResizeMode="NoResize"
+        Title="Check Your Password" Height="350" Width="400">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="24" />
             <Setter Property="Padding" Value="10 5" />
         </Style>
     </Window.Resources>
-    <Grid Background="#252525">
-        <views:PassCheckView MaxWidth="300" DataContext="{Binding CurrentViewModel}" />
+    <Grid Background="#959595">
+        <views:PassCheckView MaxWidth="320" DataContext="{Binding CurrentViewModel}" />
     </Grid>
 </Window>

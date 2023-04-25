@@ -1,17 +1,21 @@
-﻿using System.Windows.Input;
+﻿using System;
+using System.Windows.Input;
 
 namespace CheckPasswordApp.ViewModels
 {
     public class PassCheckViewModel : ViewModelBase
     {
         private string _complexPassword;
+        private string _genPass;
         private string _password;
 
         public PassCheckViewModel()
         {
             ResetCommand = new ResetPassword(this);
             CheckCommand = new CheckPassword(this);
+            GenPassCommand = new GenPass(this);
             Password = "";
+            GenPass = "";
         }
 
         public string Password
@@ -21,6 +25,16 @@ namespace CheckPasswordApp.ViewModels
             {
                 _password = value;
                 OnPropertyChanged(nameof(Password));
+            }
+        }
+
+        public string GenPass
+        {
+            get => _genPass;
+            set
+            {
+                _genPass = value;
+                OnPropertyChanged(nameof(GenPass));
             }
         }
 
@@ -36,6 +50,7 @@ namespace CheckPasswordApp.ViewModels
 
         public ICommand CheckCommand { get; }
         public ICommand ResetCommand { get; }
+        public ICommand GenPassCommand { get; }
     }
 
     public class CheckPassword : CommandBase
@@ -59,7 +74,14 @@ namespace CheckPasswordApp.ViewModels
 
         public override void Execute(object parameter)
         {
-            _passCheckViewModel.ComplexPassword = "Hasło jest puste";
+            _passCheckViewModel.ComplexPassword = "Hasło jest słabe";
+
+            if (_passCheckViewModel.Password == "")
+            {
+                _passCheckViewModel.ComplexPassword = "Hasło jest puste";
+                return;
+            }
+
             if (CheckNumberContains(_passCheckViewModel.Password))
             {
                 if (_passCheckViewModel.Password.Length >= 7)
@@ -67,8 +89,6 @@ namespace CheckPasswordApp.ViewModels
                 else if (_passCheckViewModel.Password.Length <= 6 && _passCheckViewModel.Password.Length >= 4)
                     _passCheckViewModel.ComplexPassword = "Hasło jest średnie";
             }
-
-            if (_passCheckViewModel.Password != "") _passCheckViewModel.ComplexPassword = "Hasło jest słabe";
         }
     }
 
@@ -84,6 +104,46 @@ namespace CheckPasswordApp.ViewModels
         public override void Execute(object parameter)
         {
             _passCheckViewModel.Password = "";
+        }
+    }
+
+    public class GenPass : CommandBase
+    {
+        private readonly PassCheckViewModel _passCheckViewModel;
+        private readonly Random _random;
+
+        public GenPass(PassCheckViewModel passCheckViewModel)
+        {
+            _passCheckViewModel = passCheckViewModel;
+            _random = new Random();
+        }
+
+        private string[] addCharsToPass(string[] genPass, string chars)
+        {
+            var ranNum = 0;
+            for (var i = 0; i < 3; i++)
+            {
+                ranNum = _random.Next(12);
+                if (genPass[ranNum] is null)
+                    genPass[ranNum] = chars[_random.Next(chars.Length)].ToString();
+                else
+                    i--;
+            }
+
+            return genPass;
+        }
+
+        public override void Execute(object parameter)
+        {
+            var nums = "1234567890";
+            var letters = "abcdefghijklmnoprstuwxyz";
+            var special = "@#&%$";
+            var genPass = new string[12];
+            genPass = addCharsToPass(genPass, nums);
+            genPass = addCharsToPass(genPass, letters);
+            genPass = addCharsToPass(genPass, special);
+            genPass = addCharsToPass(genPass, letters.ToUpper());
+            _passCheckViewModel.GenPass = string.Join("", genPass);
         }
     }
 }
